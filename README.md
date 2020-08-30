@@ -8,4 +8,4 @@ Green: Furture Hours
 
 Deployed URL: https://joseph-d98.github.io/work-day-scheduler/
 
-![](assets/image/readme.PNG)
+![](assets/images/readme.png)
