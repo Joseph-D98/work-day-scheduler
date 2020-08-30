@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +29,68 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <table class="table table-bordered">
+        <!--Header for columns-->
+        <thead>
+          <tr class="header">
+            <th scope="col" id="timeHeader">TIME</th>
+            <th scope="col" id="taskHeader" class="col-6">TASK</th>
+            <th scope="col" id="saveHeader">SAVE</th>
+          </tr>
+        </thead>
+        <!--Line for each time slot -->
+        <tbody>
+          <tr>
+            <th scope="row" class="time">9AM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">10AM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">11AM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">12PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">1PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">2PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">3PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">4PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="time">5PM</th>
+            <td><input type="text" class="form-control"></td>
+            <td><button type="button" class="btn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

@@ -69,3 +69,49 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+table {
+  background-color: #f3f3f3;
+}
+
+th #time {
+  color: white;
+}
+
+.time {
+  color: #000;
+}
+
+head {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+  text-align: center;
+}
+
+table.table-bordered {
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+table.table-bordered>thead>tr>th {
+  border: 2px solid white;
+}
+
+table.table-bordered>tbody>tr>td {
+  border: 2px solid white;
+}
+
+.btn {
+  background-color: #0db089;
+  color: white;
+}
+
+#currentDay {
+  color: #000;
+  size: 30px;
+  font-weight: bold;
+}
+
