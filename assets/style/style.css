@@ -1,10 +1,11 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans',
+  sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -21,11 +22,11 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -33,7 +34,8 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  ;
 }
 
 .hour {
@@ -70,48 +72,10 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-table {
-  background-color: #f3f3f3;
+.fas {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 40%;
+  left: 40%;
 }
-
-th #time {
-  color: white;
-}
-
-.time {
-  color: #000;
-}
-
-head {
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-th {
-  text-align: center;
-}
-
-table.table-bordered {
-  border: 2px solid white;
-  margin-top: 20px;
-}
-
-table.table-bordered>thead>tr>th {
-  border: 2px solid white;
-}
-
-table.table-bordered>tbody>tr>td {
-  border: 2px solid white;
-}
-
-.btn {
-  background-color: #0db089;
-  color: white;
-}
-
-#currentDay {
-  color: #000;
-  size: 30px;
-  font-weight: bold;
-}
-
